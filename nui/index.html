@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário VIP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title">VIP</div>
+
+        <div class="form-group">
+            <label for="input-text"><b>ID:</b></label>
+            <input type="text" id="input-id" placeholder="Coloque o ID aqui">
+        </div>
+        <div class="form-group">
+            <label for="input-text"><b>Quantidade de dinheiro:</b></label>
+            <input type="text" id="input-money" placeholder="Coloque a quantidade de DINHEIRO aqui" value="0"> 
+        </div>
+        <div class="form-group">
+            <label for="input-text"><b>Nome do spawn do Veiculo:</b></label>
+            <input type="text" id="input-vehicle-spawn" placeholder="Coloque o nome de SPAWN do VEICULO" value="nil"> 
+        </div>
+        <div class="form-group">
+            <label for="input-text"><b>Nome do Grupo:</b></label>
+            <input type="text" id="input-group-name" placeholder="Coloque o nome do GRUPO aqui" value="nil"> 
+        </div>
+        
+        <button id="enviar-btn">Enviar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
